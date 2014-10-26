@@ -1,0 +1,7 @@
+﻿cJSON编译：（添加数学函数库）
+#gcc -o cjsontest cJSON.c test.c -I. -lm
+   
+SupperEasyJSON编译：（error: ‘nullptr’ was not declared in this scope）
+#g++ -o cppjson json.cpp test.cpp -I. -lm -std=c++11
+或
+##g++ -o cppjson json.cpp test.cpp -I. -lm -std=gnu++11
